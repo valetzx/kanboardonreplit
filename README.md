@@ -17,7 +17,9 @@ https://github.com/kanboard/kanboard
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
-在运行完成出现登录界面后 点击Shell 在终端中逐行输入以下内容：
+在运行完成出现类似这样的 `Internal Error: SQLSTATE[08006] [7] FATAL: role "admin" does not exist` 报错后
+
+点击Shell 在终端中逐行输入以下内容：
 ```
 createdb -h 127.0.0.1
 psql -h 127.0.0.1
@@ -25,4 +27,3 @@ create user admin with password 'admin';
 ```
 
 在新窗口打开你的kanboard使用admin/admin登录！记得在后台改密码！
-
