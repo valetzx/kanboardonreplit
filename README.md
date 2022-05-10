@@ -19,7 +19,7 @@ https://github.com/kanboard/kanboard
 
 在运行完成的网页中 出现类似这样的 `Internal Error: SQLSTATE[08006] [7] FATAL: role "admin" does not exist` 报错后 
 
-点击Shell 在终端中逐行输入以下内容：
+点击 Shell 在终端中逐行输入以下内容：
 ```
 createdb -h 127.0.0.1
 psql -h 127.0.0.1
