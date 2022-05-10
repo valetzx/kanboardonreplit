@@ -1,5 +1,7 @@
 # kanboardonreplit
-在Replit部署typecho并使用postgresql数据库
+在Replit部署kanboard看板并使用postgresql数据库
+
+https://github.com/kanboard/kanboard
 
 个人版（不推荐）：
 
