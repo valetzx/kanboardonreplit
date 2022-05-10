@@ -17,7 +17,7 @@ https://github.com/kanboard/kanboard
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
-在运行完成出现类似这样的 `Internal Error: SQLSTATE[08006] [7] FATAL: role "admin" does not exist` 报错后
+在运行完成的网页中 出现类似这样的 `Internal Error: SQLSTATE[08006] [7] FATAL: role "admin" does not exist` 报错后 
 
 点击Shell 在终端中逐行输入以下内容：
 ```
